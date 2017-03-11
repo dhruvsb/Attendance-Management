@@ -59,7 +59,7 @@ public class Main extends Application {
         });
         
         VBox layout = new VBox(15);
-        layout.setPadding(new Insets(20, 20, 20, 20));
+        layout.setPadding(new Insets(20,20, 20, 20));
         layout.getChildren().addAll(box1, box2, box3, box4,picker1,picker2,SetDateButton, GenerateButton);
         
         scene = new Scene(layout, 300, 310);

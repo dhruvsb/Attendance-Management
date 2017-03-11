@@ -20,7 +20,7 @@ public class FullReport {
     public static void ReportMethod() throws IOException {
         HSSFWorkbook workbookOut = new HSSFWorkbook();
         HSSFSheet sheetOut = workbookOut.createSheet("Sheet");
-        FileInputStream FileInput = new FileInputStream(new File("C:\\CO-III.xls"));
+        FileInputStream FileInput = new FileInputStream(new File("C:\\CO-I.xls"));
         HSSFWorkbook workbookIn = new HSSFWorkbook(FileInput);
         HSSFSheet sheetIn = workbookIn.getSheetAt(0);
         HSSFRow row;
